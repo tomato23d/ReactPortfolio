@@ -3,47 +3,35 @@ import '../../css/style.css';
 
 export default function Contact() {
   return (
-    <div id = "newform" class = "newform">
-      <h1>Contact Page</h1>
-      <p>
-   Please contact me on
-      </p>
-<form>
+    <div className = 'main'>
+        <h1> Please contact me on</h1>
+      
+        <form className = "newform">
 
 
-<div class="form-group">
-          <label for="name">Name</label>
-          <input required type = 'text'
-            class="form-input"
-            id="name"
-            placeholder="name"
-          />
-        </div>
-        <br></br>
-<div class="form-group">
-          <label for="email">Email</label>
-          <input required type = 'email'
-            class="form-input"
-            id="email"
-            placeholder="email"
-          />
-        </div>
-        <br></br>
-<div class="form-group">
-          <label for="name">Message</label>
-          <input required type = 'text'
-            class="form-input"
-            id="message"
-            placeholder="your message"
-          />
-        </div>
-
-
-
-</form>
-
+                <div className="form-group">
+                      <label for="name">Name</label>
+                      <input required type = 'text'
+                      placeholder="your name"/>
+                </div>
+       
+                <div className="form-group">
+                      <label for="email">Email</label>
+                      <input required type = 'email'
+                      placeholder="email"/>
+                </div>
+       
+                <div className="form-group">
+                      <label for="name">Message</label>
+                      <input required type = 'text'
+                      placeholder="your message"/>
+                </div>
+                <br></br>
+                
+          </form>
+          <button type="submit" className="form-button" >
+                SUBMIT
+                </button>
     </div>
-
-    
   );
 }

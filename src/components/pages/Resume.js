@@ -2,10 +2,10 @@ import React from 'react';
 
 export default function Resume() {
   return (
-    <div>
+    <div className = 'main'>
       <h1>Resume</h1>
       <p>
-       My resume includes application skills developed over two decades as well as new Javascript skills recently acquired.
+       The brief summary of Anna's skills can be found on linkedin.
       </p>
     </div>
   );

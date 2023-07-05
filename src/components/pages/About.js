@@ -1,16 +1,16 @@
 import React from 'react';
-import myimage from  '../../images/icon.JPG';
+import myimage from  '../../images/icon.PNG';
 
 export default function About() {
   return (
-    <div>
-      <h1>About me</h1>
-
-      <img src ={myimage} alt="icon"/>
+    <div className = 'main'>
+   
+      <img class = "myimage" src ={myimage} alt="icon"/>
+     <aside>
       <p>
-      I am semi-retired professional with passion seeing software serving the business need for right data being available easy and efficiently to answer those questions to prosper.   </p>
-      <p>
-      Last five years I have been working pro bono as a trustee for a small pension fund. </p>
+      Anna is an application developer and business systems analyst.  
+      </p>
+      </aside>
     </div>
   );
 }

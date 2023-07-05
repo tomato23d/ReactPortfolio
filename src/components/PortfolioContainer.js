@@ -32,7 +32,7 @@ export default function PortfolioContainer() {
       {/* We are passing the currentPage from state and the function to update it */}
       <NavTabs currentPage={currentPage} handlePageChange={handlePageChange} />
       {/* Here we are calling the renderPage method which will return a component  */}
-      <h5>My name is Anna </h5>
+      <h5 className = "nav-title"> react portfolio <span> by Anna Art </span></h5>
       {renderPage()}
       
     </div>
