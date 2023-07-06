@@ -73,10 +73,12 @@ aside {
 .form-line {
   
     display: block;
-     width: 80%;
+    width: 80%;
     padding: var(--padding-normal);
     font-size: var(--font-body);
 }
+
+
 
 .form-button {
     
@@ -91,9 +93,37 @@ aside {
     
 }
 
+
+.portfolio-line {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+    padding: var(--padding-normal);
+    font-size: var(--font-body);
+}
+
+.reference {
+    font-size: var(--font-small);
+
+}
+
 .footer {
     position: absolute;
     bottom: 40px;
     left: 20px;
     font-size: var(--font-small);
+    display: flex;
+    flex: wrap;
+    justify-content: space-between;
+    padding-right: var(--padding-normal);
+    
+}
+
+.footer-line {
+    display: flex;
+		flex: wrap;
+		justify-content: space-between;
+		flex: 1 0 600px;
+		padding-right: 100px;
 }
