@@ -3,7 +3,8 @@
     --font-body: 30px;
     --font-small: 20px;
     --margin-left: 40px;
-
+    --padding-normal: 20px;
+    --padding-large: 40px;
 }
 
 
@@ -14,16 +15,10 @@
 }
 
 .nav-title {
-    padding: 10px;
+    padding: var(--padding-large);
     font-size: var(--font-title);
     text-align: center;
 }
-/*
-.nav-tabs {
-    font-style: normal;
-    font-size: 25px;
-    padding: 20px;
-}*/
 
 .nav-item {
     font-style: normal;
@@ -42,46 +37,45 @@ span {
     margin-left: var(--margin-left);
 }
 
+.page-title {
+    margin-top: 40px;
+ 
+}
+
+.page-main {
+    padding-top: var(--padding-normal);
+    font-size: var(--font-small);
+}
 
 
 .myimage {
     width: 280px;
     height: 150px;
-    margin-top: 10rem;
+    margin-top: 150px;
 }
 
 aside {
     float: right;
-    padding-left: 0.5rem;
+    padding: var(--padding-normal);
     margin-left:var(--margin-left);
-    margin-top: 14rem;
-    font-style: normal;
+    margin-top: 185px;
     font-size: var(--font-body);
-    color: black;
 
 }
 
 .new-form {
-    width: 80%;
-    padding: 0.75rem;
-    color: #1a1a1a;
-    background-color: #ffffff;
-    margin: 0.625rem 0;
+    
+  /*  color: #1a1a1a;
+    background-color: #ffffff;*/
     font-size: var(--font-body);
    }
 
 .form-line {
   
-  display: block;
-  width: 80%;
-  padding: 0.75rem;
-  font-size: var(--font-body);
- /* color: #1a1a1a;
-  background-color: #ffffff;
-  margin: 0.625rem 0;
- */
-
-
+    display: block;
+     width: 80%;
+    padding: var(--padding-normal);
+    font-size: var(--font-body);
 }
 
 .form-button {
@@ -95,12 +89,6 @@ aside {
     border: 1px solid #484848;
     border-radius: 0.3rem;
     
-}
-
-
-.page-title {
-    margin-top: 40px;
-   /* margin-left: var(--margin-left);*/
 }
 
 .footer {
