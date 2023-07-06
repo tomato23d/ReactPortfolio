@@ -7,37 +7,37 @@ export default function Portfolio() {
                 <div className = 'page-main'>
                     <ul>
                         <li className="portfolio-line"> 
-                            <p> <a href = "https://tomato23d.github.io/Weather-Dashboard">Weather Dashboard</a> </p>
-                            <span className="reference"> <a href = "https://github.com/tomato23d/Weather-Dashboard">GitHub</a> </span>
+                            <p> <a href = "https://tomato23d.github.io/Weather-Dashboard" target="_blank">Weather Dashboard</a> </p>
+                            <span className="reference"> <a href = "https://github.com/tomato23d/Weather-Dashboard" target="_blank">GitHub</a> </span>
                         </li>
                         
                         <li className="portfolio-line"> 
-                            <p><a href = "https://tomato23d.github.io/PasswordGenerator">Password Generator</a> </p>
-                            <span className="reference"> <a href = "https://github.com/tomato23d/PasswordGenerator">GitHub</a> </span>
+                            <p><a href = "https://tomato23d.github.io/PasswordGenerator" target="_blank">Password Generator</a> </p>
+                            <span className="reference"> <a href = "https://github.com/tomato23d/PasswordGenerator" target="_blank">GitHub</a> </span>
                         </li>
                          
                         <li className="portfolio-line"> 
-                            <p><a href = "https://tomato23d.github.io/TravelandDestinationReviewApp">
+                            <p><a href = "https://tomato23d.github.io/TravelandDestinationReviewApp" target="_blank">
                                 Travel Destination Review</a> </p>
-                            <span className="reference"> <a href = "https://github.com/tomato23d/TravelandDestinationReviewApp">GitHub</a> </span>  
+                            <span className="reference"> <a href = "https://github.com/tomato23d/TravelandDestinationReviewApp" target="_blank">GitHub</a> </span>  
                         </li>
                         
                         <li className="portfolio-line"> 
-                            <p> <a href = "https://tomato23d.github.io/22.PostBlog">
+                            <p> <a href = "https://tomato23d.github.io/22.PostBlog" target="_blank">
                                 Social Network</a></p> 
-                            <span className="reference"> <a href = "https://github.com/tomato23d/22.PostBlog">GitHub</a> </span>    
+                            <span className="reference"> <a href = "https://github.com/tomato23d/22.PostBlog" target="_blank">GitHub</a> </span>    
                         </li>
                     
                         <li className="portfolio-line"> 
-                            <p><a href = "https://tomato23d.github.io/Calendar">
+                            <p><a href = "https://tomato23d.github.io/Calendar" target="_blank">
                                 Work Day Scheduler</a> </p>
-                            <span className="reference"> <a href = "https://github.com/tomato23d/Calendar">GitHub</a> </span> 
+                            <span className="reference"> <a href = "https://github.com/tomato23d/Calendar" target="_blank">GitHub</a> </span> 
                         </li>
 
                         <li className="portfolio-line"> 
-                            <p> <a href = "https://tomato23d.github.io/Mini-Project.w2">
+                            <p> <a href = "https://tomato23d.github.io/Mini-Project.w2" target="_blank">
                                 Web page design reflections</a></p> 
-                            <span className="reference"> <a href = "https://github.com/tomato23d/Mini-Project.w2">GitHub</a> </span> 
+                            <span className="reference"> <a href = "https://github.com/tomato23d/Mini-Project.w2" target="_blank">GitHub</a> </span> 
                         </li>
                     </ul>    
                 
