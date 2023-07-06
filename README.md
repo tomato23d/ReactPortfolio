@@ -1,13 +1,21 @@
-
-
 # ReactPortfolio
 
-###
-[deployed to github with only title in header reacting](./Images/github_deployed_gh_pages.png)
 
-###
-updated the script src on index.html in public foilder to "../build/static/js/main.84729ba4.js" which is copied to build>static folder, however, the page doesn't respond
+## About
+
+This is a "single" page React application.
 
 
-###
-info re deployment to various ports can be found on [https://create-react-app.dev/docs/deployment/].
+## Purpose
+
+This application is an introduction to the React platform and library.
+
+
+## Application
+
+The application shows React capabilities of "change of point" refresh. It also provides deployment platform into GitHub branch specially configured for React. 
+
+
+## Next
+
+The application can be further developed to include database (with MERN). The page can also host most of the styling techniques and packages available.
