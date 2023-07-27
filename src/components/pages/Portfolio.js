@@ -39,6 +39,12 @@ export default function Portfolio() {
                                 Web page design reflections</a></p> 
                             <span className="reference"> <a href = "https://github.com/tomato23d/Mini-Project.w2" target="_blank">GitHub</a> </span> 
                         </li>
+                        <li className="portfolio-line"> 
+                            <p> <a href = "#to be deployed" target="_blank">
+                                Bookshelf online bookstore</a></p> 
+                            <span className="reference"> <a href = "https://github.com/tomato23d/MernApollo" target="_blank">GitHub</a> </span> 
+                        </li>
+
                     </ul>    
                 
                 </div>
